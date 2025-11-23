@@ -2,8 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily run
-  workflow_dispatch:      # manual run
+    - cron: "0 0 * * *"     # Roz raat ko chalega (UTC)
+  workflow_dispatch:        # Manual run ke liye
 
 jobs:
   build:
